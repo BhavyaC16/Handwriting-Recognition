@@ -8,8 +8,8 @@ class handwriting_recognition(object):
 	def __init__(self,path_to_file):
 		self.path_to_file = path_to_file
 		self.url = 'https://centralindia.api.cognitive.microsoft.com/vision/v2.0/recognizeText'
-		self.key1 = 'b7907519b5f24b749f598472e4b50fa8' #centralindia
-		self.key2 = '09f630895e9941f9ae055fca7258fcb2' #centralindia
+		self.key1 = '<enter your api>' #centralindia
+		self.key2 = '<enter your api>' #centralindia
 		self.max_retries = 5
 		
 	def processRequest(self,json,data,headers,params):
