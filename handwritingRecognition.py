@@ -65,6 +65,10 @@ def OCRTextResult(operation_location,headers):
 
 
 def processImage(path):
+	'''
+      function that takes the path to the image as a parameter, and
+      prints the handwritten text recognized.
+    '''
 	pathToImage = path
 	with open(pathToImage, 'rb') as f:
 		data = f.read()
